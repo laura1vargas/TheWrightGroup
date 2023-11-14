@@ -1,0 +1,2193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_66df672eeabd35d93d203e11d00b0a62 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_66df672eeabd35d93d203e11d00b0a62" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_66df672eeabd35d93d203e11d00b0a62 = L.map(
+                "map_66df672eeabd35d93d203e11d00b0a62",
+                {
+                    center: [32.7157, -117.1611],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_538d1e7ee2a1fbebbf2ca516de584664 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var marker_4adb52d99c1f6c6d3bc26a01019e553d = L.marker(
+                [33.1643167, -117.3571741],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_4717f78afdeda0b9c07b67133b02d277 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4adb52d99c1f6c6d3bc26a01019e553d.setIcon(icon_4717f78afdeda0b9c07b67133b02d277);
+        
+    
+        var popup_ebc86278ea1fa89476c5cf9148e049ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f70abb04ac6c586a10e0bd901cf24743 = $(`<div id="html_f70abb04ac6c586a10e0bd901cf24743" style="width: 100.0%; height: 100.0%;">2345 Ocean St</div>`)[0];
+            popup_ebc86278ea1fa89476c5cf9148e049ed.setContent(html_f70abb04ac6c586a10e0bd901cf24743);
+        
+
+        marker_4adb52d99c1f6c6d3bc26a01019e553d.bindPopup(popup_ebc86278ea1fa89476c5cf9148e049ed)
+        ;
+
+        
+    
+    
+            var marker_31813f0822dc8dfe45c404038f761a92 = L.marker(
+                [33.1563147, -117.2935691],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_0ef040b4a4119b0c9a03167bf02a50bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_31813f0822dc8dfe45c404038f761a92.setIcon(icon_0ef040b4a4119b0c9a03167bf02a50bc);
+        
+    
+        var popup_05b150f7ec2196267dc4e3a23adb3594 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fbeea03611bb1e82cf240f16e3905eee = $(`<div id="html_fbeea03611bb1e82cf240f16e3905eee" style="width: 100.0%; height: 100.0%;">3614 Buck Ridge Ave</div>`)[0];
+            popup_05b150f7ec2196267dc4e3a23adb3594.setContent(html_fbeea03611bb1e82cf240f16e3905eee);
+        
+
+        marker_31813f0822dc8dfe45c404038f761a92.bindPopup(popup_05b150f7ec2196267dc4e3a23adb3594)
+        ;
+
+        
+    
+    
+            var marker_aaeccc61d28de32fbc4584413c06159f = L.marker(
+                [33.1644435, -117.3565619],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_0f2d3134f44cd9130f993468ac32c4bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_aaeccc61d28de32fbc4584413c06159f.setIcon(icon_0f2d3134f44cd9130f993468ac32c4bf);
+        
+    
+        var popup_b3450bf06efbf67401095384806371cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce73798c2e0ce23ec05cf9086c53fbe6 = $(`<div id="html_ce73798c2e0ce23ec05cf9086c53fbe6" style="width: 100.0%; height: 100.0%;">2349 Ocean St</div>`)[0];
+            popup_b3450bf06efbf67401095384806371cd.setContent(html_ce73798c2e0ce23ec05cf9086c53fbe6);
+        
+
+        marker_aaeccc61d28de32fbc4584413c06159f.bindPopup(popup_b3450bf06efbf67401095384806371cd)
+        ;
+
+        
+    
+    
+            var marker_03630ff28381bea833e97190ae05faac = L.marker(
+                [33.1625015, -117.3514741],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_4dc73cf0896efff4ebce4f3df1774d0d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_03630ff28381bea833e97190ae05faac.setIcon(icon_4dc73cf0896efff4ebce4f3df1774d0d);
+        
+    
+        var popup_b482a0875073afce8fa0504f6d04a333 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2784310367953ff16ff47fd27b72440 = $(`<div id="html_e2784310367953ff16ff47fd27b72440" style="width: 100.0%; height: 100.0%;">2687 State St</div>`)[0];
+            popup_b482a0875073afce8fa0504f6d04a333.setContent(html_e2784310367953ff16ff47fd27b72440);
+        
+
+        marker_03630ff28381bea833e97190ae05faac.bindPopup(popup_b482a0875073afce8fa0504f6d04a333)
+        ;
+
+        
+    
+    
+            var marker_d24ed5f601a66da32172e2ea089e764f = L.marker(
+                [32.9407516, -117.1808992],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_764143c0e02f94f17383ea2ab3a453d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d24ed5f601a66da32172e2ea089e764f.setIcon(icon_764143c0e02f94f17383ea2ab3a453d4);
+        
+    
+        var popup_0a8ef289af4adf42bfa4814c325bba13 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f5ba50c5723721e5f33c18c667866f3 = $(`<div id="html_1f5ba50c5723721e5f33c18c667866f3" style="width: 100.0%; height: 100.0%;">Duck Pond Lane</div>`)[0];
+            popup_0a8ef289af4adf42bfa4814c325bba13.setContent(html_1f5ba50c5723721e5f33c18c667866f3);
+        
+
+        marker_d24ed5f601a66da32172e2ea089e764f.bindPopup(popup_0a8ef289af4adf42bfa4814c325bba13)
+        ;
+
+        
+    
+    
+            var marker_eb104d5d9dd45fa5eb5d1e6a3d7bd23b = L.marker(
+                [33.0939595, -117.3057771],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_2045441b3323626ab7497b2ae0235209 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_eb104d5d9dd45fa5eb5d1e6a3d7bd23b.setIcon(icon_2045441b3323626ab7497b2ae0235209);
+        
+    
+        var popup_b83b9b5476347326b68ac274cd65e0bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3df56ed06dbfb815759404eba56c779 = $(`<div id="html_f3df56ed06dbfb815759404eba56c779" style="width: 100.0%; height: 100.0%;">7461 Mermaid Ln</div>`)[0];
+            popup_b83b9b5476347326b68ac274cd65e0bd.setContent(html_f3df56ed06dbfb815759404eba56c779);
+        
+
+        marker_eb104d5d9dd45fa5eb5d1e6a3d7bd23b.bindPopup(popup_b83b9b5476347326b68ac274cd65e0bd)
+        ;
+
+        
+    
+    
+            var marker_10fcbb8a6f5bad2f0582c9d5c3c4fa25 = L.marker(
+                [33.2251873, -117.103104],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_47f4b5f62f39dd59e1f77df31748515d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_10fcbb8a6f5bad2f0582c9d5c3c4fa25.setIcon(icon_47f4b5f62f39dd59e1f77df31748515d);
+        
+    
+        var popup_cd34fbd11e2f49f616dcab91cd5202ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_323f9b8ec1917387d292d2e34b139d45 = $(`<div id="html_323f9b8ec1917387d292d2e34b139d45" style="width: 100.0%; height: 100.0%;">28443 Cerveza Ct</div>`)[0];
+            popup_cd34fbd11e2f49f616dcab91cd5202ce.setContent(html_323f9b8ec1917387d292d2e34b139d45);
+        
+
+        marker_10fcbb8a6f5bad2f0582c9d5c3c4fa25.bindPopup(popup_cd34fbd11e2f49f616dcab91cd5202ce)
+        ;
+
+        
+    
+    
+            var marker_cd589f3e36c4e40995daca7af28efb46 = L.marker(
+                [33.190801, -117.3800317],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_0b6043212777756381201bbb83030a7f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cd589f3e36c4e40995daca7af28efb46.setIcon(icon_0b6043212777756381201bbb83030a7f);
+        
+    
+        var popup_669b66c8e432493360e356d56241f490 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee9f9e79586bab8803024b13c3fca14b = $(`<div id="html_ee9f9e79586bab8803024b13c3fca14b" style="width: 100.0%; height: 100.0%;">212 S Pacific St</div>`)[0];
+            popup_669b66c8e432493360e356d56241f490.setContent(html_ee9f9e79586bab8803024b13c3fca14b);
+        
+
+        marker_cd589f3e36c4e40995daca7af28efb46.bindPopup(popup_669b66c8e432493360e356d56241f490)
+        ;
+
+        
+    
+    
+            var marker_31a22969ebdd61a7dece32fe0e9a27dd = L.marker(
+                [33.1923653, -117.3667765],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_6c101d5a320954e302719c3d50e5a752 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_31a22969ebdd61a7dece32fe0e9a27dd.setIcon(icon_6c101d5a320954e302719c3d50e5a752);
+        
+    
+        var popup_61252614899c758ce4ab75da6e8960c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_241e763ec0a52543ea052016da4f3a2c = $(`<div id="html_241e763ec0a52543ea052016da4f3a2c" style="width: 100.0%; height: 100.0%;">602 Rockledge St</div>`)[0];
+            popup_61252614899c758ce4ab75da6e8960c8.setContent(html_241e763ec0a52543ea052016da4f3a2c);
+        
+
+        marker_31a22969ebdd61a7dece32fe0e9a27dd.bindPopup(popup_61252614899c758ce4ab75da6e8960c8)
+        ;
+
+        
+    
+    
+            var marker_42ab67aeb5f4c5e5889ad6f52f78091b = L.marker(
+                [32.9354239, -117.2520418],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_f7716d062e7f2dee5e8eddc1d13800e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_42ab67aeb5f4c5e5889ad6f52f78091b.setIcon(icon_f7716d062e7f2dee5e8eddc1d13800e0);
+        
+    
+        var popup_561bd1d6fd73dc17a700833eacf16bcb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d9ab67c2387e5dbdbc489a55556ad8e = $(`<div id="html_9d9ab67c2387e5dbdbc489a55556ad8e" style="width: 100.0%; height: 100.0%;">12813 Caminito De Las Olas</div>`)[0];
+            popup_561bd1d6fd73dc17a700833eacf16bcb.setContent(html_9d9ab67c2387e5dbdbc489a55556ad8e);
+        
+
+        marker_42ab67aeb5f4c5e5889ad6f52f78091b.bindPopup(popup_561bd1d6fd73dc17a700833eacf16bcb)
+        ;
+
+        
+    
+    
+            var marker_5e8acbaa176469bdcff0d2bf667e192c = L.marker(
+                [33.2261187, -117.1025984],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_88948695e9bf8b0c93fef261f8355b48 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5e8acbaa176469bdcff0d2bf667e192c.setIcon(icon_88948695e9bf8b0c93fef261f8355b48);
+        
+    
+        var popup_564f62a23a83f38ea55a75fa960802e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4e0c88be1a3be3390652de513b39706 = $(`<div id="html_b4e0c88be1a3be3390652de513b39706" style="width: 100.0%; height: 100.0%;">28493 Cerveza Ct</div>`)[0];
+            popup_564f62a23a83f38ea55a75fa960802e0.setContent(html_b4e0c88be1a3be3390652de513b39706);
+        
+
+        marker_5e8acbaa176469bdcff0d2bf667e192c.bindPopup(popup_564f62a23a83f38ea55a75fa960802e0)
+        ;
+
+        
+    
+    
+            var marker_faac76c2fd5bdfff257dc50dfedfe291 = L.marker(
+                [33.1004985, -117.2770806],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_3f138acf5b429d05ae4f6ee2e642c987 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_faac76c2fd5bdfff257dc50dfedfe291.setIcon(icon_3f138acf5b429d05ae4f6ee2e642c987);
+        
+    
+        var popup_cc0e76a8181afad6bcf7054116d7087c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5cf74524838d6e800f0e55021fe60fc4 = $(`<div id="html_5cf74524838d6e800f0e55021fe60fc4" style="width: 100.0%; height: 100.0%;">1710 Blackbird Cir</div>`)[0];
+            popup_cc0e76a8181afad6bcf7054116d7087c.setContent(html_5cf74524838d6e800f0e55021fe60fc4);
+        
+
+        marker_faac76c2fd5bdfff257dc50dfedfe291.bindPopup(popup_cc0e76a8181afad6bcf7054116d7087c)
+        ;
+
+        
+    
+    
+            var marker_58a2dfd77b1448d271ef836567043d8f = L.marker(
+                [33.1964094, -117.2187625],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_54df373d2af1a0a8aaa6ae98ffb43931 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_58a2dfd77b1448d271ef836567043d8f.setIcon(icon_54df373d2af1a0a8aaa6ae98ffb43931);
+        
+    
+        var popup_3deb70cf247b5165eae6e0dc62332c12 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9238237880c84eb1da1d1bac2ed9f00 = $(`<div id="html_f9238237880c84eb1da1d1bac2ed9f00" style="width: 100.0%; height: 100.0%;">1950 Alta Vista Dr</div>`)[0];
+            popup_3deb70cf247b5165eae6e0dc62332c12.setContent(html_f9238237880c84eb1da1d1bac2ed9f00);
+        
+
+        marker_58a2dfd77b1448d271ef836567043d8f.bindPopup(popup_3deb70cf247b5165eae6e0dc62332c12)
+        ;
+
+        
+    
+    
+            var marker_1968195e9f1703af2c1abd5131c8fbb0 = L.marker(
+                [33.1951648, -117.3069439],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_da344549552e1b326ec144618a622cb8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1968195e9f1703af2c1abd5131c8fbb0.setIcon(icon_da344549552e1b326ec144618a622cb8);
+        
+    
+        var popup_f82753a91e82ccd8dbe0783933dd1e0b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9480f96e0a935338ec99de2a21572a64 = $(`<div id="html_9480f96e0a935338ec99de2a21572a64" style="width: 100.0%; height: 100.0%;">3453 Caseras Dr</div>`)[0];
+            popup_f82753a91e82ccd8dbe0783933dd1e0b.setContent(html_9480f96e0a935338ec99de2a21572a64);
+        
+
+        marker_1968195e9f1703af2c1abd5131c8fbb0.bindPopup(popup_f82753a91e82ccd8dbe0783933dd1e0b)
+        ;
+
+        
+    
+    
+            var marker_e55b4147b31d71f458a58b5013a5e91b = L.marker(
+                [32.9210878, -117.1697192],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_615c2a17beb7e37c1f58604c59caf5ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e55b4147b31d71f458a58b5013a5e91b.setIcon(icon_615c2a17beb7e37c1f58604c59caf5ac);
+        
+    
+        var popup_3a38c11cd146a725874d6e35a716cc52 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_19d30e1d658a9e92f24f7728447e5f67 = $(`<div id="html_19d30e1d658a9e92f24f7728447e5f67" style="width: 100.0%; height: 100.0%;">11175 Caminito Inocenta</div>`)[0];
+            popup_3a38c11cd146a725874d6e35a716cc52.setContent(html_19d30e1d658a9e92f24f7728447e5f67);
+        
+
+        marker_e55b4147b31d71f458a58b5013a5e91b.bindPopup(popup_3a38c11cd146a725874d6e35a716cc52)
+        ;
+
+        
+    
+    
+            var marker_3f8a55ea051743f02cda9c42b6c2a8eb = L.marker(
+                [33.2266159, -117.2475636],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_69c276612eed1016bd6f73a94b83647d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3f8a55ea051743f02cda9c42b6c2a8eb.setIcon(icon_69c276612eed1016bd6f73a94b83647d);
+        
+    
+        var popup_1717f97319810be3c64e94b129e72399 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92c1aa127fac590c74b2a281e21fb830 = $(`<div id="html_92c1aa127fac590c74b2a281e21fb830" style="width: 100.0%; height: 100.0%;">1757 Henderson Ct</div>`)[0];
+            popup_1717f97319810be3c64e94b129e72399.setContent(html_92c1aa127fac590c74b2a281e21fb830);
+        
+
+        marker_3f8a55ea051743f02cda9c42b6c2a8eb.bindPopup(popup_1717f97319810be3c64e94b129e72399)
+        ;
+
+        
+    
+    
+            var marker_5d0829bfd149db8c9700737b7a1cd533 = L.marker(
+                [33.2168231, -117.2154779],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_dc0f0e70afd0fc54ea01f559751f79f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5d0829bfd149db8c9700737b7a1cd533.setIcon(icon_dc0f0e70afd0fc54ea01f559751f79f9);
+        
+    
+        var popup_6c5572928afd7d61f4f56c096416fd0e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b9bc9e2882ac202eef6eadf03121d37 = $(`<div id="html_9b9bc9e2882ac202eef6eadf03121d37" style="width: 100.0%; height: 100.0%;">1250 Independence Way</div>`)[0];
+            popup_6c5572928afd7d61f4f56c096416fd0e.setContent(html_9b9bc9e2882ac202eef6eadf03121d37);
+        
+
+        marker_5d0829bfd149db8c9700737b7a1cd533.bindPopup(popup_6c5572928afd7d61f4f56c096416fd0e)
+        ;
+
+        
+    
+    
+            var marker_1d462ddb3390fcd67970b8b24c255c23 = L.marker(
+                [33.1622807, -117.1885306],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_454d0e2db30c54d3403596879f6f1066 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1d462ddb3390fcd67970b8b24c255c23.setIcon(icon_454d0e2db30c54d3403596879f6f1066);
+        
+    
+        var popup_c82f06c85b366cbced09f57961fad284 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a21fd2347f6a9d85129dbea6729344b8 = $(`<div id="html_a21fd2347f6a9d85129dbea6729344b8" style="width: 100.0%; height: 100.0%;">1378 Corte Lira</div>`)[0];
+            popup_c82f06c85b366cbced09f57961fad284.setContent(html_a21fd2347f6a9d85129dbea6729344b8);
+        
+
+        marker_1d462ddb3390fcd67970b8b24c255c23.bindPopup(popup_c82f06c85b366cbced09f57961fad284)
+        ;
+
+        
+    
+    
+            var marker_6a0a233788b4852a98ffb84096810899 = L.marker(
+                [33.7696543, -118.151126],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_b39ed55f0208a48b8e1bc6de4a351a5b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6a0a233788b4852a98ffb84096810899.setIcon(icon_b39ed55f0208a48b8e1bc6de4a351a5b);
+        
+    
+        var popup_b8aefca8feadd72e0bba99c97d2911c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_98533a868c576a2cdcaed80775e96b0a = $(`<div id="html_98533a868c576a2cdcaed80775e96b0a" style="width: 100.0%; height: 100.0%;">340 Newport Ave</div>`)[0];
+            popup_b8aefca8feadd72e0bba99c97d2911c2.setContent(html_98533a868c576a2cdcaed80775e96b0a);
+        
+
+        marker_6a0a233788b4852a98ffb84096810899.bindPopup(popup_b8aefca8feadd72e0bba99c97d2911c2)
+        ;
+
+        
+    
+    
+            var marker_74f3a8d2133c959702e9082767df4ef3 = L.marker(
+                [33.1601224, -117.2924832],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_2483242d723d8220c5f207da39ac52d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_74f3a8d2133c959702e9082767df4ef3.setIcon(icon_2483242d723d8220c5f207da39ac52d7);
+        
+    
+        var popup_77bab4f704625d2371e8b30105aa8cb7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00d00bff38a9d48736f8a6e2d0af03f1 = $(`<div id="html_00d00bff38a9d48736f8a6e2d0af03f1" style="width: 100.0%; height: 100.0%;">3458 Ravine Dr</div>`)[0];
+            popup_77bab4f704625d2371e8b30105aa8cb7.setContent(html_00d00bff38a9d48736f8a6e2d0af03f1);
+        
+
+        marker_74f3a8d2133c959702e9082767df4ef3.bindPopup(popup_77bab4f704625d2371e8b30105aa8cb7)
+        ;
+
+        
+    
+    
+            var marker_96fe7fd1ba92c655fafa6ae2ac63b5e3 = L.marker(
+                [33.1012957, -117.1850872],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_8707ea92ac0b402c0282da32259e7bc8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_96fe7fd1ba92c655fafa6ae2ac63b5e3.setIcon(icon_8707ea92ac0b402c0282da32259e7bc8);
+        
+    
+        var popup_33d2e87313da6bd49b5b14b0bdd1dee7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca87cae4a8749fb70c5277790b086839 = $(`<div id="html_ca87cae4a8749fb70c5277790b086839" style="width: 100.0%; height: 100.0%;">1616 Reflection St</div>`)[0];
+            popup_33d2e87313da6bd49b5b14b0bdd1dee7.setContent(html_ca87cae4a8749fb70c5277790b086839);
+        
+
+        marker_96fe7fd1ba92c655fafa6ae2ac63b5e3.bindPopup(popup_33d2e87313da6bd49b5b14b0bdd1dee7)
+        ;
+
+        
+    
+    
+            var marker_05972796db73fa1c14e3c8609b5fdd49 = L.marker(
+                [33.2035517, -117.2780552],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_c438bc76b2144a483d605ad27d0f7685 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_05972796db73fa1c14e3c8609b5fdd49.setIcon(icon_c438bc76b2144a483d605ad27d0f7685);
+        
+    
+        var popup_092ed890ec1427fca93eed3cd8997917 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f822e9a276861bb36833eefb3d4e47c6 = $(`<div id="html_f822e9a276861bb36833eefb3d4e47c6" style="width: 100.0%; height: 100.0%;">1746 Silver Fox Ln</div>`)[0];
+            popup_092ed890ec1427fca93eed3cd8997917.setContent(html_f822e9a276861bb36833eefb3d4e47c6);
+        
+
+        marker_05972796db73fa1c14e3c8609b5fdd49.bindPopup(popup_092ed890ec1427fca93eed3cd8997917)
+        ;
+
+        
+    
+    
+            var marker_189b52a1904d343cb64912983ee72960 = L.marker(
+                [33.1475656, -117.2422354],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_ef7353c06f35d77464d4579850b002a3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_189b52a1904d343cb64912983ee72960.setIcon(icon_ef7353c06f35d77464d4579850b002a3);
+        
+    
+        var popup_a4b7436b7b5d4a5ac30f7389d7b93a49 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_808e3700c23995187285b5f3ce8ff460 = $(`<div id="html_808e3700c23995187285b5f3ce8ff460" style="width: 100.0%; height: 100.0%;">1604 Mountain Pass Cir</div>`)[0];
+            popup_a4b7436b7b5d4a5ac30f7389d7b93a49.setContent(html_808e3700c23995187285b5f3ce8ff460);
+        
+
+        marker_189b52a1904d343cb64912983ee72960.bindPopup(popup_a4b7436b7b5d4a5ac30f7389d7b93a49)
+        ;
+
+        
+    
+    
+            var marker_beaddc1141b35d30e8c8a048ebc0f930 = L.marker(
+                [33.2092839, -117.2097888],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_727de09357451ecb8bedc8a0a6f18b96 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_beaddc1141b35d30e8c8a048ebc0f930.setIcon(icon_727de09357451ecb8bedc8a0a6f18b96);
+        
+    
+        var popup_8f27e36a6f782bea62eea73e65321ba4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3ace25f10be81eb8eb84685d75579d2 = $(`<div id="html_e3ace25f10be81eb8eb84685d75579d2" style="width: 100.0%; height: 100.0%;">831 Avenida Taxco</div>`)[0];
+            popup_8f27e36a6f782bea62eea73e65321ba4.setContent(html_e3ace25f10be81eb8eb84685d75579d2);
+        
+
+        marker_beaddc1141b35d30e8c8a048ebc0f930.bindPopup(popup_8f27e36a6f782bea62eea73e65321ba4)
+        ;
+
+        
+    
+    
+            var marker_a5ead2e318240d8bf5afa4337a2c22a1 = L.marker(
+                [33.3908725, -117.2324745],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_2808452964e9e8fb04ae435cfb17397f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a5ead2e318240d8bf5afa4337a2c22a1.setIcon(icon_2808452964e9e8fb04ae435cfb17397f);
+        
+    
+        var popup_f31f3b3782afdcf937f722143751454a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1cfdf47176ea8ef4a8793d26767e5dd2 = $(`<div id="html_1cfdf47176ea8ef4a8793d26767e5dd2" style="width: 100.0%; height: 100.0%;">887 Hillcrest Terrace</div>`)[0];
+            popup_f31f3b3782afdcf937f722143751454a.setContent(html_1cfdf47176ea8ef4a8793d26767e5dd2);
+        
+
+        marker_a5ead2e318240d8bf5afa4337a2c22a1.bindPopup(popup_f31f3b3782afdcf937f722143751454a)
+        ;
+
+        
+    
+    
+            var marker_33593c495718b6252f3cc3ce265a03ee = L.marker(
+                [33.1057723, -117.249478],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_d960d3ab79167d7103d40495ee7ad31e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_33593c495718b6252f3cc3ce265a03ee.setIcon(icon_d960d3ab79167d7103d40495ee7ad31e);
+        
+    
+        var popup_e626fc5f65b373fb9b5e160b175766be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ebe8199e89be45061e547c374db31abb = $(`<div id="html_ebe8199e89be45061e547c374db31abb" style="width: 100.0%; height: 100.0%;">2580 Luciernaga St</div>`)[0];
+            popup_e626fc5f65b373fb9b5e160b175766be.setContent(html_ebe8199e89be45061e547c374db31abb);
+        
+
+        marker_33593c495718b6252f3cc3ce265a03ee.bindPopup(popup_e626fc5f65b373fb9b5e160b175766be)
+        ;
+
+        
+    
+    
+            var marker_c01ee761706618246dba66eacf12f96e = L.marker(
+                [33.1089394, -117.2243492],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_f42c3f445cf9b1d77a57aa93334a6859 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c01ee761706618246dba66eacf12f96e.setIcon(icon_f42c3f445cf9b1d77a57aa93334a6859);
+        
+    
+        var popup_8b340a0d6546f26594aebc7bfb4ba99a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8962d1634d67c8b94ab131e2dd924ae1 = $(`<div id="html_8962d1634d67c8b94ab131e2dd924ae1" style="width: 100.0%; height: 100.0%;">2491 Antlers Way</div>`)[0];
+            popup_8b340a0d6546f26594aebc7bfb4ba99a.setContent(html_8962d1634d67c8b94ab131e2dd924ae1);
+        
+
+        marker_c01ee761706618246dba66eacf12f96e.bindPopup(popup_8b340a0d6546f26594aebc7bfb4ba99a)
+        ;
+
+        
+    
+    
+            var marker_23841540ee4f449303c3376b2c30a554 = L.marker(
+                [33.1173517, -117.1651144],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_a11dbcdbb645752b7e266fdc94005cf3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_23841540ee4f449303c3376b2c30a554.setIcon(icon_a11dbcdbb645752b7e266fdc94005cf3);
+        
+    
+        var popup_da44e18081c6dbcc1389eeace01e1935 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_933ce0fedd8c80c34520d28007d55c3f = $(`<div id="html_933ce0fedd8c80c34520d28007d55c3f" style="width: 100.0%; height: 100.0%;">133 Diamante Rd</div>`)[0];
+            popup_da44e18081c6dbcc1389eeace01e1935.setContent(html_933ce0fedd8c80c34520d28007d55c3f);
+        
+
+        marker_23841540ee4f449303c3376b2c30a554.bindPopup(popup_da44e18081c6dbcc1389eeace01e1935)
+        ;
+
+        
+    
+    
+            var marker_132de7f87c44a343fb78c3c4663e94c3 = L.marker(
+                [33.2033968, -117.3791949],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_d7283a71b44cb203334a5e5761fa4db5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_132de7f87c44a343fb78c3c4663e94c3.setIcon(icon_d7283a71b44cb203334a5e5761fa4db5);
+        
+    
+        var popup_1942d711cea1414b947cf332e1cb2fc6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ace9e8343a8608237da8615320d2f38a = $(`<div id="html_ace9e8343a8608237da8615320d2f38a" style="width: 100.0%; height: 100.0%;">775 Harbor Cliff Way</div>`)[0];
+            popup_1942d711cea1414b947cf332e1cb2fc6.setContent(html_ace9e8343a8608237da8615320d2f38a);
+        
+
+        marker_132de7f87c44a343fb78c3c4663e94c3.bindPopup(popup_1942d711cea1414b947cf332e1cb2fc6)
+        ;
+
+        
+    
+    
+            var marker_638570c3c9c57d12cfef68ab89ccefa4 = L.marker(
+                [33.1750839, -117.3203343],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_7d1e318f98d7e092ebbbb0739eff3669 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_638570c3c9c57d12cfef68ab89ccefa4.setIcon(icon_7d1e318f98d7e092ebbbb0739eff3669);
+        
+    
+        var popup_0042d4d1dec0c68acdc97028ae786876 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_272ebaf821497264cd1a56658bf106a5 = $(`<div id="html_272ebaf821497264cd1a56658bf106a5" style="width: 100.0%; height: 100.0%;">2712 Via Roberto</div>`)[0];
+            popup_0042d4d1dec0c68acdc97028ae786876.setContent(html_272ebaf821497264cd1a56658bf106a5);
+        
+
+        marker_638570c3c9c57d12cfef68ab89ccefa4.bindPopup(popup_0042d4d1dec0c68acdc97028ae786876)
+        ;
+
+        
+    
+    
+            var marker_eda6f9d1ff1d2bb416413d7a55fb10b0 = L.marker(
+                [33.1119123, -117.309993],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_55ed9f521ffe943448231977926d6758 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_eda6f9d1ff1d2bb416413d7a55fb10b0.setIcon(icon_55ed9f521ffe943448231977926d6758);
+        
+    
+        var popup_9d9cdc9b298e2ff864a6564b9474f2ee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6fc036ee626fb139ec0ff59bf125f61d = $(`<div id="html_6fc036ee626fb139ec0ff59bf125f61d" style="width: 100.0%; height: 100.0%;">6737 Heath Ct</div>`)[0];
+            popup_9d9cdc9b298e2ff864a6564b9474f2ee.setContent(html_6fc036ee626fb139ec0ff59bf125f61d);
+        
+
+        marker_eda6f9d1ff1d2bb416413d7a55fb10b0.bindPopup(popup_9d9cdc9b298e2ff864a6564b9474f2ee)
+        ;
+
+        
+    
+    
+            var marker_0e6b64827252214333882197a10fb51a = L.marker(
+                [33.2044504, -117.2730768],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_4252c922f6063e31d5d583aa686c0ae6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0e6b64827252214333882197a10fb51a.setIcon(icon_4252c922f6063e31d5d583aa686c0ae6);
+        
+    
+        var popup_209b5d147d0239eeda570a1865e5ca47 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6f686c8fd9a6bd13c426c77164721e47 = $(`<div id="html_6f686c8fd9a6bd13c426c77164721e47" style="width: 100.0%; height: 100.0%;">1462 Olive Ave</div>`)[0];
+            popup_209b5d147d0239eeda570a1865e5ca47.setContent(html_6f686c8fd9a6bd13c426c77164721e47);
+        
+
+        marker_0e6b64827252214333882197a10fb51a.bindPopup(popup_209b5d147d0239eeda570a1865e5ca47)
+        ;
+
+        
+    
+    
+            var marker_edcb0d3dcb5ac63668fe3804af73ac58 = L.marker(
+                [33.1563869, -117.3082574],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_9b6d807e2fc1f474e806e81c9df0f338 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_edcb0d3dcb5ac63668fe3804af73ac58.setIcon(icon_9b6d807e2fc1f474e806e81c9df0f338);
+        
+    
+        var popup_a3cc8f329e1812dbf32b94a736e19152 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9b522634aec7c950a90594af1dca397 = $(`<div id="html_d9b522634aec7c950a90594af1dca397" style="width: 100.0%; height: 100.0%;">2691 Regent Rd</div>`)[0];
+            popup_a3cc8f329e1812dbf32b94a736e19152.setContent(html_d9b522634aec7c950a90594af1dca397);
+        
+
+        marker_edcb0d3dcb5ac63668fe3804af73ac58.bindPopup(popup_a3cc8f329e1812dbf32b94a736e19152)
+        ;
+
+        
+    
+    
+            var marker_93b651c39b1df5b1407a94eb5a93ad80 = L.marker(
+                [33.1848324, -117.2391809],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_dc3e52548172aaa0c6b5976703a1b2c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_93b651c39b1df5b1407a94eb5a93ad80.setIcon(icon_dc3e52548172aaa0c6b5976703a1b2c9);
+        
+    
+        var popup_95628bf395dfe0823b5ac40b565c74fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5222e6874e89b3a5eb65fcae4c68c514 = $(`<div id="html_5222e6874e89b3a5eb65fcae4c68c514" style="width: 100.0%; height: 100.0%;">628 Sunset Dr</div>`)[0];
+            popup_95628bf395dfe0823b5ac40b565c74fd.setContent(html_5222e6874e89b3a5eb65fcae4c68c514);
+        
+
+        marker_93b651c39b1df5b1407a94eb5a93ad80.bindPopup(popup_95628bf395dfe0823b5ac40b565c74fd)
+        ;
+
+        
+    
+    
+            var marker_0d91bedb8b5aca96c9742248909f9463 = L.marker(
+                [32.7986616, -117.2573697],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_b0d67cc332505e6c97b786199d197c7a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0d91bedb8b5aca96c9742248909f9463.setIcon(icon_b0d67cc332505e6c97b786199d197c7a);
+        
+    
+        var popup_a0c641e5403f1fa79d03f8976ea78383 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9eb16b1d998f7cbaef3a5c8a67e72a6 = $(`<div id="html_d9eb16b1d998f7cbaef3a5c8a67e72a6" style="width: 100.0%; height: 100.0%;">4667 Ocean Blvd</div>`)[0];
+            popup_a0c641e5403f1fa79d03f8976ea78383.setContent(html_d9eb16b1d998f7cbaef3a5c8a67e72a6);
+        
+
+        marker_0d91bedb8b5aca96c9742248909f9463.bindPopup(popup_a0c641e5403f1fa79d03f8976ea78383)
+        ;
+
+        
+    
+    
+            var marker_37b4f82d4d7fd763c80d5618533459d6 = L.marker(
+                [33.1678797, -117.136517],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_f006e38099dfc179e9480edd2f77e6e2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_37b4f82d4d7fd763c80d5618533459d6.setIcon(icon_f006e38099dfc179e9480edd2f77e6e2);
+        
+    
+        var popup_96cb014d1c7fdda1141a81d3794d8b2b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4af531ae1d5dfb08a585fb6b0cdb95da = $(`<div id="html_4af531ae1d5dfb08a585fb6b0cdb95da" style="width: 100.0%; height: 100.0%;">2495 Rock View Glen</div>`)[0];
+            popup_96cb014d1c7fdda1141a81d3794d8b2b.setContent(html_4af531ae1d5dfb08a585fb6b0cdb95da);
+        
+
+        marker_37b4f82d4d7fd763c80d5618533459d6.bindPopup(popup_96cb014d1c7fdda1141a81d3794d8b2b)
+        ;
+
+        
+    
+    
+            var marker_55dc9faeb6c8c46d2067981cd7a736e7 = L.marker(
+                [33.1868511, -117.2715291],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_acff2be17095c605b3d05b17684487ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_55dc9faeb6c8c46d2067981cd7a736e7.setIcon(icon_acff2be17095c605b3d05b17684487ae);
+        
+    
+        var popup_ce90194b67fe00ed76f68162d43cc46d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9dc8647a5d04deef73bcbd91dfac2d24 = $(`<div id="html_9dc8647a5d04deef73bcbd91dfac2d24" style="width: 100.0%; height: 100.0%;">1614 Carriage Cir</div>`)[0];
+            popup_ce90194b67fe00ed76f68162d43cc46d.setContent(html_9dc8647a5d04deef73bcbd91dfac2d24);
+        
+
+        marker_55dc9faeb6c8c46d2067981cd7a736e7.bindPopup(popup_ce90194b67fe00ed76f68162d43cc46d)
+        ;
+
+        
+    
+    
+            var marker_f54bf8a984a4a553a2eb11500cb98a8a = L.marker(
+                [33.2159534, -117.2834309],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_3607328408c8da530490ee5b67f01e26 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f54bf8a984a4a553a2eb11500cb98a8a.setIcon(icon_3607328408c8da530490ee5b67f01e26);
+        
+    
+        var popup_d5a5fb53b98c3ba1f48dd14fc7b3c2ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a5d4662d99ea55e013ad0927d62197f = $(`<div id="html_7a5d4662d99ea55e013ad0927d62197f" style="width: 100.0%; height: 100.0%;">1745 Avenida Sevilla</div>`)[0];
+            popup_d5a5fb53b98c3ba1f48dd14fc7b3c2ea.setContent(html_7a5d4662d99ea55e013ad0927d62197f);
+        
+
+        marker_f54bf8a984a4a553a2eb11500cb98a8a.bindPopup(popup_d5a5fb53b98c3ba1f48dd14fc7b3c2ea)
+        ;
+
+        
+    
+    
+            var marker_6909a686fddd163f9334405459b436be = L.marker(
+                [33.1299512, -117.1524205],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_ac3acd790b94f094b938d17311bc659f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6909a686fddd163f9334405459b436be.setIcon(icon_ac3acd790b94f094b938d17311bc659f);
+        
+    
+        var popup_356cf9b857a10115473de2e2ff38c9b2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f2071c1ccb84f7c31a89c29ae8f52f0 = $(`<div id="html_2f2071c1ccb84f7c31a89c29ae8f52f0" style="width: 100.0%; height: 100.0%;">539 Camino Verde</div>`)[0];
+            popup_356cf9b857a10115473de2e2ff38c9b2.setContent(html_2f2071c1ccb84f7c31a89c29ae8f52f0);
+        
+
+        marker_6909a686fddd163f9334405459b436be.bindPopup(popup_356cf9b857a10115473de2e2ff38c9b2)
+        ;
+
+        
+    
+    
+            var marker_47177234fab033e7f7cd7efa99c91873 = L.marker(
+                [33.3630024, -117.2310735],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_3edaf977077420dac454bb51cc7284e9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_47177234fab033e7f7cd7efa99c91873.setIcon(icon_3edaf977077420dac454bb51cc7284e9);
+        
+    
+        var popup_3dfbee0ffc553f83f62498928616632d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d93eecc0d8b393cd71d85943ae18c197 = $(`<div id="html_d93eecc0d8b393cd71d85943ae18c197" style="width: 100.0%; height: 100.0%;">1350 Friends Way</div>`)[0];
+            popup_3dfbee0ffc553f83f62498928616632d.setContent(html_d93eecc0d8b393cd71d85943ae18c197);
+        
+
+        marker_47177234fab033e7f7cd7efa99c91873.bindPopup(popup_3dfbee0ffc553f83f62498928616632d)
+        ;
+
+        
+    
+    
+            var marker_433c6ac6f6d2f29ad2d3c3c73bcb58d6 = L.marker(
+                [33.1376884, -117.0753209],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_2c1d4159351fcfe5b53e8ae24e46e76e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_433c6ac6f6d2f29ad2d3c3c73bcb58d6.setIcon(icon_2c1d4159351fcfe5b53e8ae24e46e76e);
+        
+    
+        var popup_85b5dbb30572c034c75e65bf454e8ab1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1543ea2f89de5c0cbb5ca897f3efbe69 = $(`<div id="html_1543ea2f89de5c0cbb5ca897f3efbe69" style="width: 100.0%; height: 100.0%;">1041 E Lincoln Ave</div>`)[0];
+            popup_85b5dbb30572c034c75e65bf454e8ab1.setContent(html_1543ea2f89de5c0cbb5ca897f3efbe69);
+        
+
+        marker_433c6ac6f6d2f29ad2d3c3c73bcb58d6.bindPopup(popup_85b5dbb30572c034c75e65bf454e8ab1)
+        ;
+
+        
+    
+    
+            var marker_a09d417dc2e0431a7696c1dc62546be7 = L.marker(
+                [33.1075058, -117.0844984],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_f50b52f5ab55a6fd2db17417aa11f844 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a09d417dc2e0431a7696c1dc62546be7.setIcon(icon_f50b52f5ab55a6fd2db17417aa11f844);
+        
+    
+        var popup_bb4a9bb292e2457ebd492469c63c3181 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e1ec634e4b9f5f48bf68dda6359d941 = $(`<div id="html_6e1ec634e4b9f5f48bf68dda6359d941" style="width: 100.0%; height: 100.0%;">1131 S Spruce St</div>`)[0];
+            popup_bb4a9bb292e2457ebd492469c63c3181.setContent(html_6e1ec634e4b9f5f48bf68dda6359d941);
+        
+
+        marker_a09d417dc2e0431a7696c1dc62546be7.bindPopup(popup_bb4a9bb292e2457ebd492469c63c3181)
+        ;
+
+        
+    
+    
+            var marker_681e19f857f0c6a1ce8ad091733c3422 = L.marker(
+                [33.1937672, -117.2265259],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_1512855bc15fd67f88e9fd58cf35c8ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_681e19f857f0c6a1ce8ad091733c3422.setIcon(icon_1512855bc15fd67f88e9fd58cf35c8ca);
+        
+    
+        var popup_bca218089ffc800676f42f89b68beb9a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2c70c7d96405a2c27e4d90904a05a78d = $(`<div id="html_2c70c7d96405a2c27e4d90904a05a78d" style="width: 100.0%; height: 100.0%;">2290 Alta Vista Dr</div>`)[0];
+            popup_bca218089ffc800676f42f89b68beb9a.setContent(html_2c70c7d96405a2c27e4d90904a05a78d);
+        
+
+        marker_681e19f857f0c6a1ce8ad091733c3422.bindPopup(popup_bca218089ffc800676f42f89b68beb9a)
+        ;
+
+        
+    
+    
+            var marker_5b14f7726d93ed29915e6856c3d33cfc = L.marker(
+                [33.2209143, -117.2489288],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_93eb9bbe35b19949e2b9219c485d69fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5b14f7726d93ed29915e6856c3d33cfc.setIcon(icon_93eb9bbe35b19949e2b9219c485d69fb);
+        
+    
+        var popup_47b3fd6c0bf12c3d49b9917010b93294 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3248b81070955746ad218f73fd7f43b = $(`<div id="html_e3248b81070955746ad218f73fd7f43b" style="width: 100.0%; height: 100.0%;">1372 Dorsey Way</div>`)[0];
+            popup_47b3fd6c0bf12c3d49b9917010b93294.setContent(html_e3248b81070955746ad218f73fd7f43b);
+        
+
+        marker_5b14f7726d93ed29915e6856c3d33cfc.bindPopup(popup_47b3fd6c0bf12c3d49b9917010b93294)
+        ;
+
+        
+    
+    
+            var marker_f3ab173cef73b2e268ad30b3af4786ef = L.marker(
+                [33.3228968, -117.1493804],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_93156884c70206f61df80d91b6c44f5b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f3ab173cef73b2e268ad30b3af4786ef.setIcon(icon_93156884c70206f61df80d91b6c44f5b);
+        
+    
+        var popup_c91bd7af4f224faa4e9f41857fe9ca3c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f995d995b88a26ad2f5ebc42c2b52a3d = $(`<div id="html_f995d995b88a26ad2f5ebc42c2b52a3d" style="width: 100.0%; height: 100.0%;">3373 Lake Park Rd</div>`)[0];
+            popup_c91bd7af4f224faa4e9f41857fe9ca3c.setContent(html_f995d995b88a26ad2f5ebc42c2b52a3d);
+        
+
+        marker_f3ab173cef73b2e268ad30b3af4786ef.bindPopup(popup_c91bd7af4f224faa4e9f41857fe9ca3c)
+        ;
+
+        
+    
+    
+            var marker_bb0cb97475a8620c5a8b5a24e32d0163 = L.marker(
+                [33.1863638, -117.2382852],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_36165974a93dfff9431542ea0658517d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bb0cb97475a8620c5a8b5a24e32d0163.setIcon(icon_36165974a93dfff9431542ea0658517d);
+        
+    
+        var popup_d825d309be0e84f351113d462eac2753 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c05658411b9763f2a5960412c8da121 = $(`<div id="html_0c05658411b9763f2a5960412c8da121" style="width: 100.0%; height: 100.0%;">869 Rosemary Ln</div>`)[0];
+            popup_d825d309be0e84f351113d462eac2753.setContent(html_0c05658411b9763f2a5960412c8da121);
+        
+
+        marker_bb0cb97475a8620c5a8b5a24e32d0163.bindPopup(popup_d825d309be0e84f351113d462eac2753)
+        ;
+
+        
+    
+    
+            var marker_b637115f193cec05fc2f3678283aa801 = L.marker(
+                [33.245511, -117.3264129],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_f31c3255712e8cbac23171fdf04047e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b637115f193cec05fc2f3678283aa801.setIcon(icon_f31c3255712e8cbac23171fdf04047e3);
+        
+    
+        var popup_921731b660f1484509db8c97d047d84b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f78ac5303fe5f7372ceeca474af1525d = $(`<div id="html_f78ac5303fe5f7372ceeca474af1525d" style="width: 100.0%; height: 100.0%;">744 Pyramid Point Way</div>`)[0];
+            popup_921731b660f1484509db8c97d047d84b.setContent(html_f78ac5303fe5f7372ceeca474af1525d);
+        
+
+        marker_b637115f193cec05fc2f3678283aa801.bindPopup(popup_921731b660f1484509db8c97d047d84b)
+        ;
+
+        
+    
+    
+            var marker_0aff65c15756e11cc37efb52f608b501 = L.marker(
+                [33.1962843, -117.2436802],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_63f6a2f95569ef7b00eb792e0375bcf8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0aff65c15756e11cc37efb52f608b501.setIcon(icon_63f6a2f95569ef7b00eb792e0375bcf8);
+        
+    
+        var popup_9c1e75a22e49ca18623376993b39729b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_303e256312304a2be009dea02fe02160 = $(`<div id="html_303e256312304a2be009dea02fe02160" style="width: 100.0%; height: 100.0%;">421 Rancho Vista Rd</div>`)[0];
+            popup_9c1e75a22e49ca18623376993b39729b.setContent(html_303e256312304a2be009dea02fe02160);
+        
+
+        marker_0aff65c15756e11cc37efb52f608b501.bindPopup(popup_9c1e75a22e49ca18623376993b39729b)
+        ;
+
+        
+    
+    
+            var marker_ea1046bdce5e0585a3313378ad8476a6 = L.marker(
+                [33.2411648, -117.300135],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_532ea063f353f0eba55b9b347cc7c178 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ea1046bdce5e0585a3313378ad8476a6.setIcon(icon_532ea063f353f0eba55b9b347cc7c178);
+        
+    
+        var popup_cc09ad72b47f1a1bbfa1fe8b060f7d13 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed8ca743e5cf7e2f45e1e2a65dff40a1 = $(`<div id="html_ed8ca743e5cf7e2f45e1e2a65dff40a1" style="width: 100.0%; height: 100.0%;">223 Carissa Dr</div>`)[0];
+            popup_cc09ad72b47f1a1bbfa1fe8b060f7d13.setContent(html_ed8ca743e5cf7e2f45e1e2a65dff40a1);
+        
+
+        marker_ea1046bdce5e0585a3313378ad8476a6.bindPopup(popup_cc09ad72b47f1a1bbfa1fe8b060f7d13)
+        ;
+
+        
+    
+    
+            var marker_111014b82c286b2e10f33b1a2f9aba81 = L.marker(
+                [33.1782877, -117.2013513],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_2162cc875801c99803a78c444689f6e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_111014b82c286b2e10f33b1a2f9aba81.setIcon(icon_2162cc875801c99803a78c444689f6e1);
+        
+    
+        var popup_efe2eaf124ff9ce85cc3f44888c4902c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b1e75c92524c57b2d517e5667bc8c84b = $(`<div id="html_b1e75c92524c57b2d517e5667bc8c84b" style="width: 100.0%; height: 100.0%;">2244 Dante Terrace</div>`)[0];
+            popup_efe2eaf124ff9ce85cc3f44888c4902c.setContent(html_b1e75c92524c57b2d517e5667bc8c84b);
+        
+
+        marker_111014b82c286b2e10f33b1a2f9aba81.bindPopup(popup_efe2eaf124ff9ce85cc3f44888c4902c)
+        ;
+
+        
+    
+    
+            var marker_4ab842378a8da8a39bc2055878c3ce9d = L.marker(
+                [33.6371435, -117.5734051],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_c9e1dcfc567b2be7093783e7f48a2324 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4ab842378a8da8a39bc2055878c3ce9d.setIcon(icon_c9e1dcfc567b2be7093783e7f48a2324);
+        
+    
+        var popup_bcd1e2189bfafd4c7e13fde9975fff71 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6db98217f72b97b0070dab29c854a253 = $(`<div id="html_6db98217f72b97b0070dab29c854a253" style="width: 100.0%; height: 100.0%;">Sycamore Canyon Drive</div>`)[0];
+            popup_bcd1e2189bfafd4c7e13fde9975fff71.setContent(html_6db98217f72b97b0070dab29c854a253);
+        
+
+        marker_4ab842378a8da8a39bc2055878c3ce9d.bindPopup(popup_bcd1e2189bfafd4c7e13fde9975fff71)
+        ;
+
+        
+    
+    
+            var marker_b564c62f6da77685da04953a1b90cff0 = L.marker(
+                [33.277077, -117.079707],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_5645f699ec3458165a867b71486ecaec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b564c62f6da77685da04953a1b90cff0.setIcon(icon_5645f699ec3458165a867b71486ecaec);
+        
+    
+        var popup_5c23c805bdfcd42ac5a20a22aa5a54a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e720124624b84fadd21e262550e95e0 = $(`<div id="html_6e720124624b84fadd21e262550e95e0" style="width: 100.0%; height: 100.0%;">11670 Mesa Verde Dr</div>`)[0];
+            popup_5c23c805bdfcd42ac5a20a22aa5a54a8.setContent(html_6e720124624b84fadd21e262550e95e0);
+        
+
+        marker_b564c62f6da77685da04953a1b90cff0.bindPopup(popup_5c23c805bdfcd42ac5a20a22aa5a54a8)
+        ;
+
+        
+    
+    
+            var marker_0be81f8f5efc5150374dc9cd6b9e2b0f = L.marker(
+                [33.4697624, -117.1079003],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_46e0a6c7a8b2cacf63bf34adf12bcd11 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0be81f8f5efc5150374dc9cd6b9e2b0f.setIcon(icon_46e0a6c7a8b2cacf63bf34adf12bcd11);
+        
+    
+        var popup_5302a0ef18cfe3983997c59fe535e95e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21098a7c2331fb54ac679d3651ff5493 = $(`<div id="html_21098a7c2331fb54ac679d3651ff5493" style="width: 100.0%; height: 100.0%;">45169 Via Quivera</div>`)[0];
+            popup_5302a0ef18cfe3983997c59fe535e95e.setContent(html_21098a7c2331fb54ac679d3651ff5493);
+        
+
+        marker_0be81f8f5efc5150374dc9cd6b9e2b0f.bindPopup(popup_5302a0ef18cfe3983997c59fe535e95e)
+        ;
+
+        
+    
+    
+            var marker_1e175c86f13f8e07c555e3e4842e1c78 = L.marker(
+                [33.204108, -117.2412823],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_55f55062e515d68ec31848e1d75c75ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1e175c86f13f8e07c555e3e4842e1c78.setIcon(icon_55f55062e515d68ec31848e1d75c75ce);
+        
+    
+        var popup_eaff8af09a90dfa3bd7cd6e03f0fe18e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6bba96f22fa2cce3cb0c020f25b25adc = $(`<div id="html_6bba96f22fa2cce3cb0c020f25b25adc" style="width: 100.0%; height: 100.0%;">212 N Citrus Ave</div>`)[0];
+            popup_eaff8af09a90dfa3bd7cd6e03f0fe18e.setContent(html_6bba96f22fa2cce3cb0c020f25b25adc);
+        
+
+        marker_1e175c86f13f8e07c555e3e4842e1c78.bindPopup(popup_eaff8af09a90dfa3bd7cd6e03f0fe18e)
+        ;
+
+        
+    
+    
+            var marker_94b2b5ac533142e8bc6b679fa6a1e150 = L.marker(
+                [33.2472425, -117.3151207],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_dd535312a6b8c321cda8702c4cf4f64c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_94b2b5ac533142e8bc6b679fa6a1e150.setIcon(icon_dd535312a6b8c321cda8702c4cf4f64c);
+        
+    
+        var popup_fcb0a4d59a60eecc80095b3ccac1f9d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7953c4223c193d85c6849ad5830e85c8 = $(`<div id="html_7953c4223c193d85c6849ad5830e85c8" style="width: 100.0%; height: 100.0%;">4945 Anne Sladon St</div>`)[0];
+            popup_fcb0a4d59a60eecc80095b3ccac1f9d8.setContent(html_7953c4223c193d85c6849ad5830e85c8);
+        
+
+        marker_94b2b5ac533142e8bc6b679fa6a1e150.bindPopup(popup_fcb0a4d59a60eecc80095b3ccac1f9d8)
+        ;
+
+        
+    
+    
+            var marker_6bb450e259ec734dec8f305807ff5f2f = L.marker(
+                [33.2221531, -117.2711856],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_08ab10794af4592284bd7593e0acc76c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6bb450e259ec734dec8f305807ff5f2f.setIcon(icon_08ab10794af4592284bd7593e0acc76c);
+        
+    
+        var popup_b451ae8b4c3bf79c2884630441c998ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_65dc0f2f8ed8a1beddea209147fa839a = $(`<div id="html_65dc0f2f8ed8a1beddea209147fa839a" style="width: 100.0%; height: 100.0%;">1433 Temple Heights Dr</div>`)[0];
+            popup_b451ae8b4c3bf79c2884630441c998ed.setContent(html_65dc0f2f8ed8a1beddea209147fa839a);
+        
+
+        marker_6bb450e259ec734dec8f305807ff5f2f.bindPopup(popup_b451ae8b4c3bf79c2884630441c998ed)
+        ;
+
+        
+    
+    
+            var marker_a546d0e6c7f8944eb4dd2f4e0ef0d33e = L.marker(
+                [33.6635362, -117.1644107],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_2f704cf4abfd9b43bf96151575f11d74 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a546d0e6c7f8944eb4dd2f4e0ef0d33e.setIcon(icon_2f704cf4abfd9b43bf96151575f11d74);
+        
+    
+        var popup_41b99f93b7506b0de8534b08e56817bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c06185605af8fbe47f8b36adff59e40c = $(`<div id="html_c06185605af8fbe47f8b36adff59e40c" style="width: 100.0%; height: 100.0%;">28385 Northmoore Pl</div>`)[0];
+            popup_41b99f93b7506b0de8534b08e56817bd.setContent(html_c06185605af8fbe47f8b36adff59e40c);
+        
+
+        marker_a546d0e6c7f8944eb4dd2f4e0ef0d33e.bindPopup(popup_41b99f93b7506b0de8534b08e56817bd)
+        ;
+
+        
+    
+    
+            var marker_7ab1e21cfb8c8e861c193e483fb083ed = L.marker(
+                [33.1041593, -117.0840184],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_a117e1511a4759c50c36bcfece6cf8cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7ab1e21cfb8c8e861c193e483fb083ed.setIcon(icon_a117e1511a4759c50c36bcfece6cf8cb);
+        
+    
+        var popup_2717d52a1b43c627e78801ed2f6dbeb3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d66efcfcca90d457aa3106830435d449 = $(`<div id="html_d66efcfcca90d457aa3106830435d449" style="width: 100.0%; height: 100.0%;">1419 S Tulip St</div>`)[0];
+            popup_2717d52a1b43c627e78801ed2f6dbeb3.setContent(html_d66efcfcca90d457aa3106830435d449);
+        
+
+        marker_7ab1e21cfb8c8e861c193e483fb083ed.bindPopup(popup_2717d52a1b43c627e78801ed2f6dbeb3)
+        ;
+
+        
+    
+    
+            var marker_192cc287745d2703c1e5d1b40dd7bdd6 = L.marker(
+                [33.2265212, -117.3030176],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_3dd38acb9397cf80d914251f67f121d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_192cc287745d2703c1e5d1b40dd7bdd6.setIcon(icon_3dd38acb9397cf80d914251f67f121d8);
+        
+    
+        var popup_11f85f425a7db4f0409c2605f428d7ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0aeded6ffcf56634de8e2a92cc24d3f8 = $(`<div id="html_0aeded6ffcf56634de8e2a92cc24d3f8" style="width: 100.0%; height: 100.0%;">952 Royal Tern Way</div>`)[0];
+            popup_11f85f425a7db4f0409c2605f428d7ca.setContent(html_0aeded6ffcf56634de8e2a92cc24d3f8);
+        
+
+        marker_192cc287745d2703c1e5d1b40dd7bdd6.bindPopup(popup_11f85f425a7db4f0409c2605f428d7ca)
+        ;
+
+        
+    
+    
+            var marker_dd4cbfe95ae3d56673fd0f85d64610bc = L.marker(
+                [33.1343714, -117.2024625],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_1a5892b0df2cde9be55b0734fe5b7bc5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dd4cbfe95ae3d56673fd0f85d64610bc.setIcon(icon_1a5892b0df2cde9be55b0734fe5b7bc5);
+        
+    
+        var popup_287c80f918a66ab5b7894534066bfda5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7ca2579eb393d9ad4631d3645e18c9a = $(`<div id="html_b7ca2579eb393d9ad4631d3645e18c9a" style="width: 100.0%; height: 100.0%;">591 Beverly Pl</div>`)[0];
+            popup_287c80f918a66ab5b7894534066bfda5.setContent(html_b7ca2579eb393d9ad4631d3645e18c9a);
+        
+
+        marker_dd4cbfe95ae3d56673fd0f85d64610bc.bindPopup(popup_287c80f918a66ab5b7894534066bfda5)
+        ;
+
+        
+    
+    
+            var marker_90a60573fc1e0e9638cbc8311850cf42 = L.marker(
+                [33.1318106, -117.0706117],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_965e424011405caa540e19112630d911 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_90a60573fc1e0e9638cbc8311850cf42.setIcon(icon_965e424011405caa540e19112630d911);
+        
+    
+        var popup_a2ab3df3fa3cf1619813a64d36eb966a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_51a9f9d56bb65fb53b5e007fa1b8786b = $(`<div id="html_51a9f9d56bb65fb53b5e007fa1b8786b" style="width: 100.0%; height: 100.0%;">1050 E Washington Ave</div>`)[0];
+            popup_a2ab3df3fa3cf1619813a64d36eb966a.setContent(html_51a9f9d56bb65fb53b5e007fa1b8786b);
+        
+
+        marker_90a60573fc1e0e9638cbc8311850cf42.bindPopup(popup_a2ab3df3fa3cf1619813a64d36eb966a)
+        ;
+
+        
+    
+    
+            var marker_37acac7a91c80894a367ea2204ad4af5 = L.marker(
+                [33.1124839, -117.2349694],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_001ef519ab743e6d71532581229abfee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_37acac7a91c80894a367ea2204ad4af5.setIcon(icon_001ef519ab743e6d71532581229abfee);
+        
+    
+        var popup_8328bc3752264a7f53851230f9e64d2f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75ea334d1e392498ee1ebc7fff880bd8 = $(`<div id="html_75ea334d1e392498ee1ebc7fff880bd8" style="width: 100.0%; height: 100.0%;">6543 Paseo Adelante</div>`)[0];
+            popup_8328bc3752264a7f53851230f9e64d2f.setContent(html_75ea334d1e392498ee1ebc7fff880bd8);
+        
+
+        marker_37acac7a91c80894a367ea2204ad4af5.bindPopup(popup_8328bc3752264a7f53851230f9e64d2f)
+        ;
+
+        
+    
+    
+            var marker_28ce42f18b10d19e4ed49400836c85cd = L.marker(
+                [33.2341188, -117.3089148],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_2d50da5133e5048aa6a3fefb883cf496 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_28ce42f18b10d19e4ed49400836c85cd.setIcon(icon_2d50da5133e5048aa6a3fefb883cf496);
+        
+    
+        var popup_d22433c2cfcf5023bb7d035a3b96ba3b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_131466e47f8893099935844dd106889b = $(`<div id="html_131466e47f8893099935844dd106889b" style="width: 100.0%; height: 100.0%;">324 River Ranch Way</div>`)[0];
+            popup_d22433c2cfcf5023bb7d035a3b96ba3b.setContent(html_131466e47f8893099935844dd106889b);
+        
+
+        marker_28ce42f18b10d19e4ed49400836c85cd.bindPopup(popup_d22433c2cfcf5023bb7d035a3b96ba3b)
+        ;
+
+        
+    
+    
+            var marker_f4c325beaf68c4067e0300c400b13ff3 = L.marker(
+                [33.144138, -117.3183865],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_f158b3a21505f939e3e171993075f561 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f4c325beaf68c4067e0300c400b13ff3.setIcon(icon_f158b3a21505f939e3e171993075f561);
+        
+    
+        var popup_02db71d5f6377cf96b0d8956a7aa969a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9856b9b9f04ffb64ea2f6f21771c9e14 = $(`<div id="html_9856b9b9f04ffb64ea2f6f21771c9e14" style="width: 100.0%; height: 100.0%;">4805 Vigilant Way</div>`)[0];
+            popup_02db71d5f6377cf96b0d8956a7aa969a.setContent(html_9856b9b9f04ffb64ea2f6f21771c9e14);
+        
+
+        marker_f4c325beaf68c4067e0300c400b13ff3.bindPopup(popup_02db71d5f6377cf96b0d8956a7aa969a)
+        ;
+
+        
+    
+    
+            var marker_ef1dd2f4370131260a6f9dce76c1ac30 = L.marker(
+                [33.1878152, -117.2571859],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_39d49eb6573045f06a30a2b5a08f39a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ef1dd2f4370131260a6f9dce76c1ac30.setIcon(icon_39d49eb6573045f06a30a2b5a08f39a0);
+        
+    
+        var popup_d105e244489a8a88cda3cad3e6ecd5e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc5654cd93660ff9348fa2c19e4ab695 = $(`<div id="html_bc5654cd93660ff9348fa2c19e4ab695" style="width: 100.0%; height: 100.0%;">740 Breeze Hill Rd</div>`)[0];
+            popup_d105e244489a8a88cda3cad3e6ecd5e9.setContent(html_bc5654cd93660ff9348fa2c19e4ab695);
+        
+
+        marker_ef1dd2f4370131260a6f9dce76c1ac30.bindPopup(popup_d105e244489a8a88cda3cad3e6ecd5e9)
+        ;
+
+        
+    
+    
+            var marker_561bbcd80281215644b0b25860650539 = L.marker(
+                [33.2246774, -117.2562903],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_a6190b568e16ffccde684be7523f9011 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_561bbcd80281215644b0b25860650539.setIcon(icon_a6190b568e16ffccde684be7523f9011);
+        
+    
+        var popup_c14639297f62fde32e235d340ba29b9d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82a28c9be63527dbfebbcd810458f2d5 = $(`<div id="html_82a28c9be63527dbfebbcd810458f2d5" style="width: 100.0%; height: 100.0%;">1538 Avila Ln</div>`)[0];
+            popup_c14639297f62fde32e235d340ba29b9d.setContent(html_82a28c9be63527dbfebbcd810458f2d5);
+        
+
+        marker_561bbcd80281215644b0b25860650539.bindPopup(popup_c14639297f62fde32e235d340ba29b9d)
+        ;
+
+        
+    
+    
+            var marker_40214ab3d41fa8690ce36426eb834503 = L.marker(
+                [33.2377848, -117.3274453],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_8d88c7a0258312c032825558d6aa0074 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_40214ab3d41fa8690ce36426eb834503.setIcon(icon_8d88c7a0258312c032825558d6aa0074);
+        
+    
+        var popup_4d4b1157f96fd8fde1c1c79d34c4b279 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cc97a667a66412eba5247260745ebf4a = $(`<div id="html_cc97a667a66412eba5247260745ebf4a" style="width: 100.0%; height: 100.0%;">3904 Arista Way</div>`)[0];
+            popup_4d4b1157f96fd8fde1c1c79d34c4b279.setContent(html_cc97a667a66412eba5247260745ebf4a);
+        
+
+        marker_40214ab3d41fa8690ce36426eb834503.bindPopup(popup_4d4b1157f96fd8fde1c1c79d34c4b279)
+        ;
+
+        
+    
+    
+            var marker_172cdbbbfc90bf112adc19e51ca24d6d = L.marker(
+                [33.2224076, -117.2983539],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_b09c898cf08fbc10cfbe4a53c3586d93 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_172cdbbbfc90bf112adc19e51ca24d6d.setIcon(icon_b09c898cf08fbc10cfbe4a53c3586d93);
+        
+    
+        var popup_41453f972dcee78fca99f879258b4472 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a9e7bbcadf2648bd20f0a7bf27cbcdb1 = $(`<div id="html_a9e7bbcadf2648bd20f0a7bf27cbcdb1" style="width: 100.0%; height: 100.0%;">4557 Avenida Privado</div>`)[0];
+            popup_41453f972dcee78fca99f879258b4472.setContent(html_a9e7bbcadf2648bd20f0a7bf27cbcdb1);
+        
+
+        marker_172cdbbbfc90bf112adc19e51ca24d6d.bindPopup(popup_41453f972dcee78fca99f879258b4472)
+        ;
+
+        
+    
+    
+            var marker_fa913ee8092b3c0ba287e67c38159ddc = L.marker(
+                [33.4655268, -117.0816867],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_771323a7b7bdb1c626c2b3e2ec47d227 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fa913ee8092b3c0ba287e67c38159ddc.setIcon(icon_771323a7b7bdb1c626c2b3e2ec47d227);
+        
+    
+        var popup_eceeebb4bced8b8970a16714ce244697 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b6265e1b3ad9b653e6609922e70ac92c = $(`<div id="html_b6265e1b3ad9b653e6609922e70ac92c" style="width: 100.0%; height: 100.0%;">33025 Anasazi Dr</div>`)[0];
+            popup_eceeebb4bced8b8970a16714ce244697.setContent(html_b6265e1b3ad9b653e6609922e70ac92c);
+        
+
+        marker_fa913ee8092b3c0ba287e67c38159ddc.bindPopup(popup_eceeebb4bced8b8970a16714ce244697)
+        ;
+
+        
+    
+    
+            var marker_5cec9993a0ad7e0be1a0c8e9d8c18eb5 = L.marker(
+                [33.2158037, -117.0971056],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_cc46ef023a89d0a8f2234be9b482fad2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5cec9993a0ad7e0be1a0c8e9d8c18eb5.setIcon(icon_cc46ef023a89d0a8f2234be9b482fad2);
+        
+    
+        var popup_dfaf206c7ac240c96fff74fc6c13a43a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_07357d2610bb36cfb95d52814c3ce9d8 = $(`<div id="html_07357d2610bb36cfb95d52814c3ce9d8" style="width: 100.0%; height: 100.0%;">10649 Aspen Glen</div>`)[0];
+            popup_dfaf206c7ac240c96fff74fc6c13a43a.setContent(html_07357d2610bb36cfb95d52814c3ce9d8);
+        
+
+        marker_5cec9993a0ad7e0be1a0c8e9d8c18eb5.bindPopup(popup_dfaf206c7ac240c96fff74fc6c13a43a)
+        ;
+
+        
+    
+    
+            var marker_33902197f9170dca6c30f0a80f93b124 = L.marker(
+                [33.1975625, -117.3112479],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_2612fa33c663219b69a223f618c03a8d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_33902197f9170dca6c30f0a80f93b124.setIcon(icon_2612fa33c663219b69a223f618c03a8d);
+        
+    
+        var popup_0d34e93870566d212f5e81a723741e38 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_575178366c239984186cbf0ade8bdc6e = $(`<div id="html_575178366c239984186cbf0ade8bdc6e" style="width: 100.0%; height: 100.0%;">3254 San Tomas Dr</div>`)[0];
+            popup_0d34e93870566d212f5e81a723741e38.setContent(html_575178366c239984186cbf0ade8bdc6e);
+        
+
+        marker_33902197f9170dca6c30f0a80f93b124.bindPopup(popup_0d34e93870566d212f5e81a723741e38)
+        ;
+
+        
+    
+    
+            var marker_2eb0602b7e402fb2be54c68ec28156ce = L.marker(
+                [33.1662236, -117.3503243],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_4e7f8b1bed5ccbd9451b819493131b7e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2eb0602b7e402fb2be54c68ec28156ce.setIcon(icon_4e7f8b1bed5ccbd9451b819493131b7e);
+        
+    
+        var popup_fd2e9da1e75621c28245692bd50b9c9d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_36305762d59fee5f69f3be67234f478e = $(`<div id="html_36305762d59fee5f69f3be67234f478e" style="width: 100.0%; height: 100.0%;">2420 Buena Vista Cir</div>`)[0];
+            popup_fd2e9da1e75621c28245692bd50b9c9d.setContent(html_36305762d59fee5f69f3be67234f478e);
+        
+
+        marker_2eb0602b7e402fb2be54c68ec28156ce.bindPopup(popup_fd2e9da1e75621c28245692bd50b9c9d)
+        ;
+
+        
+    
+    
+            var marker_048da01aac3a044875e2b0383c964998 = L.marker(
+                [33.1630254, -117.346154],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_9a5de9f365123f737f7496e321ce6ec6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_048da01aac3a044875e2b0383c964998.setIcon(icon_9a5de9f365123f737f7496e321ce6ec6);
+        
+    
+        var popup_e8115e3651e577c8a6142f99d1cc34fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_40f3c62fc05fc2a637b01ad87cf7f8a9 = $(`<div id="html_40f3c62fc05fc2a637b01ad87cf7f8a9" style="width: 100.0%; height: 100.0%;">800 Grand Ave unit 303</div>`)[0];
+            popup_e8115e3651e577c8a6142f99d1cc34fd.setContent(html_40f3c62fc05fc2a637b01ad87cf7f8a9);
+        
+
+        marker_048da01aac3a044875e2b0383c964998.bindPopup(popup_e8115e3651e577c8a6142f99d1cc34fd)
+        ;
+
+        
+    
+    
+            var marker_4c11a110ebc25d219ef6bbf9156e4070 = L.marker(
+                [33.1096527, -117.2819454],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_b32687b785f2cb42a824834885d83a8e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4c11a110ebc25d219ef6bbf9156e4070.setIcon(icon_b32687b785f2cb42a824834885d83a8e);
+        
+    
+        var popup_fa9728905907980ce513f043b2cce2f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4970b7c04496f54db70befa99ef78655 = $(`<div id="html_4970b7c04496f54db70befa99ef78655" style="width: 100.0%; height: 100.0%;">1681 Docena Rd</div>`)[0];
+            popup_fa9728905907980ce513f043b2cce2f9.setContent(html_4970b7c04496f54db70befa99ef78655);
+        
+
+        marker_4c11a110ebc25d219ef6bbf9156e4070.bindPopup(popup_fa9728905907980ce513f043b2cce2f9)
+        ;
+
+        
+    
+    
+            var marker_20b8fe73c2d0b079b4fdf80d885950d8 = L.marker(
+                [33.1506811, -117.3411965],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_dc9e2ff96e87ebecd0fc13b721dbe41c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_20b8fe73c2d0b079b4fdf80d885950d8.setIcon(icon_dc9e2ff96e87ebecd0fc13b721dbe41c);
+        
+    
+        var popup_7c89f0ad3d1812a8b28ae945eb0c7dda = L.popup({"maxWidth": "100%"});
+
+        
+            var html_824f08c5e84dce2b3ce6d48bd43c3741 = $(`<div id="html_824f08c5e84dce2b3ce6d48bd43c3741" style="width: 100.0%; height: 100.0%;">3865 Hibiscus Cir</div>`)[0];
+            popup_7c89f0ad3d1812a8b28ae945eb0c7dda.setContent(html_824f08c5e84dce2b3ce6d48bd43c3741);
+        
+
+        marker_20b8fe73c2d0b079b4fdf80d885950d8.bindPopup(popup_7c89f0ad3d1812a8b28ae945eb0c7dda)
+        ;
+
+        
+    
+    
+            var marker_a6c6c67badef98e72f4f8630eb96373d = L.marker(
+                [33.2256501, -117.1026903],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_43b3fed58c15feba42e6b936e60ae962 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a6c6c67badef98e72f4f8630eb96373d.setIcon(icon_43b3fed58c15feba42e6b936e60ae962);
+        
+    
+        var popup_a6cd5dacde2ec5101a971e47cfdd52f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_552f9e0c0696bf5c77ef51429db8fc21 = $(`<div id="html_552f9e0c0696bf5c77ef51429db8fc21" style="width: 100.0%; height: 100.0%;">28475 Cerveza Ct</div>`)[0];
+            popup_a6cd5dacde2ec5101a971e47cfdd52f9.setContent(html_552f9e0c0696bf5c77ef51429db8fc21);
+        
+
+        marker_a6c6c67badef98e72f4f8630eb96373d.bindPopup(popup_a6cd5dacde2ec5101a971e47cfdd52f9)
+        ;
+
+        
+    
+    
+            var marker_633681614ccc5f3dc4dc43af05b19d07 = L.marker(
+                [33.1636294, -117.1765871],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_e8f88934cb9696e49cfd2444e7baf267 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_633681614ccc5f3dc4dc43af05b19d07.setIcon(icon_e8f88934cb9696e49cfd2444e7baf267);
+        
+    
+        var popup_e3794c95692afaf9057cabdde617799f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ceebe747609b69279122f0030c98bea = $(`<div id="html_7ceebe747609b69279122f0030c98bea" style="width: 100.0%; height: 100.0%;">790 Via Barquero</div>`)[0];
+            popup_e3794c95692afaf9057cabdde617799f.setContent(html_7ceebe747609b69279122f0030c98bea);
+        
+
+        marker_633681614ccc5f3dc4dc43af05b19d07.bindPopup(popup_e3794c95692afaf9057cabdde617799f)
+        ;
+
+        
+    
+    
+            var marker_0b55c54967bcaafe109bdc0a0a29895b = L.marker(
+                [33.1037713, -117.0579395],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_e32c2212ee1c94f6720479afe1ebca14 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0b55c54967bcaafe109bdc0a0a29895b.setIcon(icon_e32c2212ee1c94f6720479afe1ebca14);
+        
+    
+        var popup_75a5a8c35d4274ade1169cd9b3a3487a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_99ca22835e88afc5e7a606908673817f = $(`<div id="html_99ca22835e88afc5e7a606908673817f" style="width: 100.0%; height: 100.0%;">1920 Glennaire Dr</div>`)[0];
+            popup_75a5a8c35d4274ade1169cd9b3a3487a.setContent(html_99ca22835e88afc5e7a606908673817f);
+        
+
+        marker_0b55c54967bcaafe109bdc0a0a29895b.bindPopup(popup_75a5a8c35d4274ade1169cd9b3a3487a)
+        ;
+
+        
+    
+    
+            var marker_a2d3af006c91c769ca51a69951d7b008 = L.marker(
+                [32.7753165, -117.0315144],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_19cba2641c7f6d6948456411939fa48e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a2d3af006c91c769ca51a69951d7b008.setIcon(icon_19cba2641c7f6d6948456411939fa48e);
+        
+    
+        var popup_fc224c020440ecbd071de3dadc1cb049 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5d5a2510ff33ced8dc05f5cc38eca97 = $(`<div id="html_e5d5a2510ff33ced8dc05f5cc38eca97" style="width: 100.0%; height: 100.0%;">7700 Parkway Dr unit 29</div>`)[0];
+            popup_fc224c020440ecbd071de3dadc1cb049.setContent(html_e5d5a2510ff33ced8dc05f5cc38eca97);
+        
+
+        marker_a2d3af006c91c769ca51a69951d7b008.bindPopup(popup_fc224c020440ecbd071de3dadc1cb049)
+        ;
+
+        
+    
+    
+            var marker_41e88839ab511815d76f5d5b05e5da5f = L.marker(
+                [33.2029517, -117.3504404],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_168a8f29051d35453379727ecf918991 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_41e88839ab511815d76f5d5b05e5da5f.setIcon(icon_168a8f29051d35453379727ecf918991);
+        
+    
+        var popup_521cc7bbfc1b4cd01a071952f9c3cb26 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d3d5511de32a7aa9e076538a649781b1 = $(`<div id="html_d3d5511de32a7aa9e076538a649781b1" style="width: 100.0%; height: 100.0%;">228 Hoover St</div>`)[0];
+            popup_521cc7bbfc1b4cd01a071952f9c3cb26.setContent(html_d3d5511de32a7aa9e076538a649781b1);
+        
+
+        marker_41e88839ab511815d76f5d5b05e5da5f.bindPopup(popup_521cc7bbfc1b4cd01a071952f9c3cb26)
+        ;
+
+        
+    
+    
+            var marker_97b95502a0d15e9ee349dad3475f6892 = L.marker(
+                [33.2316075, -117.1202478],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_5dfc50ded6df539cf7bd8f9e10160b63 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_97b95502a0d15e9ee349dad3475f6892.setIcon(icon_5dfc50ded6df539cf7bd8f9e10160b63);
+        
+    
+        var popup_b88c5cbde1107ef0fc4eea601c53edce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a956ca53543bb72050a6c57f8f586e8 = $(`<div id="html_6a956ca53543bb72050a6c57f8f586e8" style="width: 100.0%; height: 100.0%;">28572 Meadow Mesa Ln</div>`)[0];
+            popup_b88c5cbde1107ef0fc4eea601c53edce.setContent(html_6a956ca53543bb72050a6c57f8f586e8);
+        
+
+        marker_97b95502a0d15e9ee349dad3475f6892.bindPopup(popup_b88c5cbde1107ef0fc4eea601c53edce)
+        ;
+
+        
+    
+    
+            var marker_6eb37d6ec72a7b7ac9647f3d3838d34d = L.marker(
+                [33.2723167, -117.2150185],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_317b104a6dbd8551af5d025ea425093f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6eb37d6ec72a7b7ac9647f3d3838d34d.setIcon(icon_317b104a6dbd8551af5d025ea425093f);
+        
+    
+        var popup_261b3b076b2da2a94a8827cfd7ba159b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_062b4860022bd8828219aea920fe2fb4 = $(`<div id="html_062b4860022bd8828219aea920fe2fb4" style="width: 100.0%; height: 100.0%;">1402 Vista De Lomas</div>`)[0];
+            popup_261b3b076b2da2a94a8827cfd7ba159b.setContent(html_062b4860022bd8828219aea920fe2fb4);
+        
+
+        marker_6eb37d6ec72a7b7ac9647f3d3838d34d.bindPopup(popup_261b3b076b2da2a94a8827cfd7ba159b)
+        ;
+
+        
+    
+    
+            var marker_a722b0bc6f408f3e1979a8a4eb5e9edb = L.marker(
+                [33.1043516, -117.2912425],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_42aa60e0fc68422d40d46015a3d10e09 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a722b0bc6f408f3e1979a8a4eb5e9edb.setIcon(icon_42aa60e0fc68422d40d46015a3d10e09);
+        
+    
+        var popup_d37a2daffe9314e61a01ce220754c454 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_14881d553b2cfbfc6c2fb094d11fa389 = $(`<div id="html_14881d553b2cfbfc6c2fb094d11fa389" style="width: 100.0%; height: 100.0%;">7132 Tatler Rd</div>`)[0];
+            popup_d37a2daffe9314e61a01ce220754c454.setContent(html_14881d553b2cfbfc6c2fb094d11fa389);
+        
+
+        marker_a722b0bc6f408f3e1979a8a4eb5e9edb.bindPopup(popup_d37a2daffe9314e61a01ce220754c454)
+        ;
+
+        
+    
+    
+            var marker_ebf3d11e935fc106fd0351c15ab759ee = L.marker(
+                [33.1409722, -117.2457263],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_21cf44f0933f25842ad420d303db1d12 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ebf3d11e935fc106fd0351c15ab759ee.setIcon(icon_21cf44f0933f25842ad420d303db1d12);
+        
+    
+        var popup_50426b17f595d17d1aa2948cba05f755 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_762ede11e795c923d40ae17af5538b61 = $(`<div id="html_762ede11e795c923d40ae17af5538b61" style="width: 100.0%; height: 100.0%;">2394 Brookhaven Pass</div>`)[0];
+            popup_50426b17f595d17d1aa2948cba05f755.setContent(html_762ede11e795c923d40ae17af5538b61);
+        
+
+        marker_ebf3d11e935fc106fd0351c15ab759ee.bindPopup(popup_50426b17f595d17d1aa2948cba05f755)
+        ;
+
+        
+    
+    
+            var marker_37346506a7332f2b85c5eed566a0eddc = L.marker(
+                [32.857935, -117.0128192],
+                {}
+            ).addTo(map_66df672eeabd35d93d203e11d00b0a62);
+        
+    
+            var icon_f58eaf57f1851ab36eb44b9e3f745431 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_37346506a7332f2b85c5eed566a0eddc.setIcon(icon_f58eaf57f1851ab36eb44b9e3f745431);
+        
+    
+        var popup_1ada0a51a8d8c0240d8d9e5bda0d6ae3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c653e84e4bf377658298aa750fb8ab1 = $(`<div id="html_4c653e84e4bf377658298aa750fb8ab1" style="width: 100.0%; height: 100.0%;">8923 Hightail Dr</div>`)[0];
+            popup_1ada0a51a8d8c0240d8d9e5bda0d6ae3.setContent(html_4c653e84e4bf377658298aa750fb8ab1);
+        
+
+        marker_37346506a7332f2b85c5eed566a0eddc.bindPopup(popup_1ada0a51a8d8c0240d8d9e5bda0d6ae3)
+        ;
+
+        
+    
+</script>
+</html>
